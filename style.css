@@ -1,0 +1,57 @@
+/* Make all font same family*/
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*header box*/
+header {
+  background-color: #344e41;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  }
+
+body {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 75px;
+  padding: 0px;
+  margin: 5px;
+}
+/*Photo of me*/
+.my-image{
+  height: 300px;
+  width: 300px
+}
+
+h2{
+  color: #588157;
+}
+
+h3{
+  color: #3E1929
+}
+/*My photography*/
+.photography {
+  width: 300px; 
+  }
+/*Style lists*/
+.list-inside li {
+  list-style-position: inside;
+}
+/*Color changes for links - Default*/
+a:link {
+  color: blue;
+}
+a:visited {
+  color: purple;
+}
+a:link:hover {
+  color: green;
+}
+a:visited:hover {
+  color: red;
+}
